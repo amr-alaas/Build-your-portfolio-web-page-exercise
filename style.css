@@ -45,17 +45,26 @@ hr {
   border: 1px solid black;
 }
 
-/* Add your solution below */
-
+/* Styles for rounded image */
 .image-circle {border-radius: 50%;
-               border: 2px;
-               text-align: center;
+               border: 2px solid #003049; /* Sets the border with color */
+               overflow: hidden; /* Ensures the border is visible */
+               text-align: center; /* Centers the image horizontally */
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               display: block;
+               margin: 0 auto;
+}
+.intro-text {
+  text-align: center;
 }
 a:link {
   color: #d62828;
 }
-a:hover{color:#f77f00}
+a:hover{color:#f77f00} /* Sets link color on hover */
 
+/* Header styles */
 header {
   display: flex;
   flex-direction: column;
@@ -65,17 +74,22 @@ header {
   justify-content: space-between;
 }
 
-.artist{
+/* Location section styles */
+.location{
   text-align: left; 
 }
 
+/* Navigation bar styles */
 .nav-bar a {
-  margin-right: 20px; /* Adjust as needed */
+  margin-right: 20px;
 }
 
-.left-align{
+/* Pete's Background section styles */
+.Pete_Background{
   text-align: left;
 }
-.rights{
+
+/* Footer styles */
+.footer_info{
   text-align: center;
-}
+}*/
